@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> TYPE FAST </title>
+    <link rel="stylesheet" href="./bulma.css" />
+  </head>
+  <body style="background-color:hsl(0, 0%, 15%);height:1920px ;width:auto;">
+    <div class="is-vcentered" style="margin-left:50%; left:50%;">
+      <button id="start" onClick="startGame()" class="button is-outlined is-warning is-large">Start</button>
+    </div>
+
+  </br></br></br>
+    <div class="columns">
+      <div class="column">
+        <h3 class="text has-text-warning is-size-1" id="scoreDisplay">Score : 0</h3>
+      </div>
+      <div class="column">
+        <h3 class="text is-size-1 has-text-white" id="owoLetter">Press start !</h3>
+        <input class="input is-outlined is-warning" id="InputAnswer" placeholder="Réponse"></input>
+      </br></br>
+        <button class="button is-outlined is-warning is-fullwidth" onClick="valid()" id="validButton">VALIDER</button>
+      </div>
+    </div>
+    <script src="./game.js"></script>
+  </body>
+</html>
