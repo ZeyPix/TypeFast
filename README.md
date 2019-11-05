@@ -1,0 +1,2 @@
+# TypeFast
+game for school
